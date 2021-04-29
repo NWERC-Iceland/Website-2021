@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+
+/* Custom */
+
+.content a {
+  @apply text-blue-700 transition duration-100;
+}
+.content a:hover {
+  @apply text-blue-500;
+}
+.content h2 {
+  @apply mt-6 text-gray-800 text-xl font-bold;
+}
+
+.content h3 {
+  @apply mt-6 text-gray-800 text-lg font-bold;
+}
+
+.content h4 {
+  @apply mt-6 text-gray-600 text-sm uppercase;
+}
+
+.content .faq h4 {
+  @apply mt-6 text-gray-800 text-base font-normal normal-case;
+}
+
+.content b {
+  @apply font-semibold;
+}
+
+.content .published {
+  @apply mt-1;
+}
+
+.content p {
+  @apply mt-2 text-gray-800 text-base;
+}
+
+.content li {
+  @apply list-disc list-outside ml-6 mt-2;
+}
+
+.schedule th {
+}
+
+.schedule td, .schedule th {
+    text-align: left;
+    @apply px-6 py-1;
+}
+
+@screen sm {
+  .menu_item:hover > div, .menu_item:focus > div {
+    @apply block;
+  }
+}
+
+@tailwind utilities;
