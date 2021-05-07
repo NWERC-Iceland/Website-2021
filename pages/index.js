@@ -70,17 +70,17 @@ const news = [
   //       NWERC and NCPC. We are delighted to have you, welcome!
   //   `,
   // },
-  // {
-  //   title: 'Call for Problems announced',
-  //   published: 'May 6, 2020',
-  //   content: pug`
-  //     p.
-  //       We are pleased to announce the Call for Problems (CfP) for the 2020
-  //       edition of the NWERC programming contest. The deadline for submitting
-  //       candidate problems is #[b July 12, 2020]. Information about the submission
-  //       requirements and procedures can be found on our #[Link(href="/cfp") #[a CfP page]].
-  //   `,
-  // },
+  {
+    title: 'Call for Problems announced',
+    published: 'May 7, 2021',
+    content: pug`
+      p.
+        We are pleased to announce the Call for Problems (CfP) for the 2021
+        edition of the NWERC programming contest. The deadline for submitting
+        candidate problems is #[b July 11, 2021]. Information about the submission
+        requirements and procedures can be found on our #[Link(href="/cfp") #[a CfP page]].
+    `,
+  },
 ];
 
 export default () => pug`

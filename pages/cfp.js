@@ -7,22 +7,26 @@ export default () => pug`
   Layout
     h2 Call for Problems
     p.
-      We are pleased to announce the Call for Problems (CfP) for the 2020 edition of the NWERC programming contest.
+      We are pleased to announce the Call for Problems (CfP) for the 2021 edition of the NWERC programming contest.
     p.
-      This contest will take place at Reykjavík University, Iceland, from 20 to 22 November, 2020. Submitters of selected candidate problems will become part of the NWERC 2020 Jury. They are expected to assist in the preparations of the final contest problem set, and they are expected to be present at the event.
+      The tentative date for the contest is 20 to 21 November, 2021, and is
+      expected to take place in either online or distributed form. Submitters
+      of selected candidate problems will become part of the NWERC 2021 Jury.
+      They are expected to assist in the preparations of the final contest
+      problem set, and they are expected to be available during the event.
       We allow combining the role of judge with the role of team coach. Please take great care to not confuse the roles, though!
     p.
-      Questions regarding this call can be posed to: #[a(href='mailto:cfp-2020@nwerc.eu') cfp-2020@nwerc.eu]
+      Questions regarding this call can be posed to: #[a(href='mailto:cfp-2021@nwerc.eu') cfp-2021@nwerc.eu]
 
 
     h3 Selection Procedure
     p.
-      The deadline for submitting candidate problems is #[b July 12, 2020].
+      The deadline for submitting candidate problems is #[b July 11, 2021].
 
     p.
       The selection committee aims to select a subset of the submitted problems for use in the contest by mid-August. Selection criteria include problem novelty, and the goal of making a well-balanced problem set in terms of algorithmic topics, and degrees of problem difficulty. You are encouraged to submit at least two candidate problems for consideration rather than one.
     p.
-      If your problem(s) are accepted, you will become part of the NWERC 2020 Jury. You are expected to have time available in the period from late August to November, in order to discuss improvements to your (and other jury members') problems. You are also expected to become a proofreader and implementer of at least one selected problem that is not your own.
+      If your problem(s) are accepted, you will become part of the NWERC 2021 Jury. You are expected to have time available in the period from late August to November, in order to discuss improvements to your (and other jury members') problems. You are also expected to become a proofreader and implementer of at least one selected problem that is not your own.
     p.
       If your problem(s) are not accepted, we will destroy all records kept of them. This allows re-submission of the problem(s) for use in another contest.
       Upon request, it is possible to have problems simultaneously considered for one of the subregional contests NCPC and UKIEPC.
@@ -57,15 +61,15 @@ export default () => pug`
     p.
       We will be using the official ICPC problem format. If you want to use it when submitting your proposal the format is documented here: #[a.break-words(href="http://www.problemarchive.org/wiki/index.php/Problem_Format") http://www.problemarchive.org/wiki/index.php/Problem_Format]
     p.
-      You can find example problem packages #[a(href="/files/nwerc2019all.tar.bz2") here].
+      You can find example problem packages #[a(href="https://2020.nwerc.eu/files/nwerc2020all.tar.bz2") here].
 
     h3 Submission Procedure
 
     p.
-      The candidate problems are highly confidential. While not mandatory we suggest that the ZIP files are delivered to us in a safe (encrypted) manner. You can download the #[a(href="/files/pgp2020.asc") public PGP key] when submitting a candidate problem. If you have a PGP key, please use it to sign your submission. #[br]
-      Send the submission to: #[a(href="mailto:cfp-2020@nwerc.eu") cfp-2020@nwerc.eu].
+      The candidate problems are highly confidential. While not mandatory we suggest that the ZIP files are delivered to us in a safe (encrypted) manner. You can download the #[a(href="/files/pgp2021.asc") public PGP key] when submitting a candidate problem. If you have a PGP key, please use it to sign your submission. #[br]
+      Send the submission to: #[a(href="mailto:cfp-2021@nwerc.eu") cfp-2021@nwerc.eu].
     p.
-      If you haven't used PGP for encrypting before, you are encouraged to send an encrypted file containing the text "A little nonsense" to #[a(href="mailto:cfp-2020@nwerc.eu") cfp-2020@nwerc.eu] to practice before sending your submission.
+      If you haven't used PGP for encrypting before, you are encouraged to send an encrypted file containing the text "A little nonsense" to #[a(href="mailto:cfp-2021@nwerc.eu") cfp-2021@nwerc.eu] to practice before sending your submission.
     p.
       You will receive a signed acknowledgement once the submission has been received and properly decrypted.
 
