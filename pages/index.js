@@ -60,16 +60,19 @@ const news = [
   //       reach out to us at #[a(href="mailto:contact@nwerc.eu") contact@nwerc.eu].
   //   `,
   // },
-  // {
-  //   title: 'Lithuania joining NWERC',
-  //   published: 'August 29, 2020',
-  //   content: pug`
-  //     p.
-  //       This year the NWERC family has gotten bigger. Please give a warm
-  //       welcome to participants from Lithuania, who have now become members of
-  //       NWERC and NCPC. We are delighted to have you, welcome!
-  //   `,
-  // },
+  {
+    title: 'Contest format update',
+    published: 'September 19, 2021',
+    content: pug`
+      p.
+        After much deliberation we - the NWERC 2021 organizers - have concluded
+        that is still not feasible for us to host a safe onsite NWERC this
+        November. To keep the contest safe and fair we will be repeating last
+        year's online format on November 20-21, incorporating your suggestions
+        to make it even better. Please see this year's #[Link(href="/rules") #[a rules]]
+        for more details.
+    `,
+  },
   {
     title: 'Call for Problems announced',
     published: 'May 7, 2021',
@@ -92,11 +95,11 @@ export default () => pug`
       University in Iceland.
     p.mb-6.
       NWERC 2021 is an official regional contest in the
-      #[a(href="https://icpc.baylor.edu/") ACM International Collegiate Programming Contest].
+      #[a(href="https://icpc.global/") International Collegiate Programming Contest].
       It draws students from colleges and universities throughout
-      Belgium, Germany, Denmark, Estonia, Finland, Great Britain,
-      Ireland, Iceland, the Netherlands, Norway, Sweden, Luxembourg and
-      Lithuania. The top teams will advance to the ACM ICPC World Finals.
+      Belgium, Denmark, Estonia, Finland, Germany, Great Britain,
+      Iceland, Ireland, Lithuania, Luxembourg, the Netherlands, Norway and
+      Sweden. The top teams will advance to the ICPC World Finals.
     // hr
     // div.sm_grid.grid-cols-2
     //     div

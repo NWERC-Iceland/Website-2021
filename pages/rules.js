@@ -5,28 +5,27 @@ import "../styles/index.css";
 
 export default () => pug`
   Layout
-    p.italic(style={'margin-top':'2em'}).
-      NOTE: The rules for NWERC 2021 have yet to be decided. Below you may find the NWERC 2020 rules.
     h2 Contest rules
     p.
       The ICPC regional contest rules can be found at the ICPC regionals web
       site; #[a(href="https://icpc.baylor.edu/regionals/rules") official ICPC regional rules].
 
     p.
-        Given the exceptional circumstances this year NWERC 2020 will be
-        conducted fully online. The following temporary rules are intended to
-        accommodate for this change, and take precedence over the official ICPC
-        regional rules where there are contradictions.
+        In order to keep NWERC 2021 a safe and fair event for everyone we have
+        decided to repeat the fully online format from NWERC 2020. The
+        following temporary rules are intended to accommodate for this change,
+        and take precedence over the official ICPC regional rules where there
+        are contradictions.
 
     p.
-        The NWERC 2020 Contest director has final say in determining any breach
+        The NWERC 2021 Contest director has final say in determining any breach
         of rules and consequences for the offending team, which could result in
         disqualification.
 
     h3 Team composition
     p.
       A student may compete when eligible according to the
-      #[a(href="https://icpc.global/newcms/regionals/rules/EligibilityDecisionTree-2020.pdf") 2020 ICPC Regionals Eligibility Diagram].
+      2021 ICPC Regionals Eligibility Diagram. (See #[a(href="https://icpc.global/regionals/rules/EligibilityDecisionTree-2020.pdf") here] for the 2020 version.)
 
     p
       ul
@@ -38,7 +37,8 @@ export default () => pug`
           allowed to participate in this region, as stated in the ICPC Regional
           Rules.
         li.
-          All teams who want to participate must be #[Link(href="/registration") #[a registered]].
+          All teams who want to participate must be registered.
+        // All teams who want to participate must be #[Link(href="/registration") #[a registered]].
 
     h3 Location
     p.
@@ -59,7 +59,7 @@ export default () => pug`
         ul
             li Posting information about the problems or sending anyone the problem statements.
             li Asking questions on Stack Overflow or any other forums.
-            li Reading discussion threads that may include information about the NWERC 2020 problems.
+            li Reading discussion threads that may include information about the NWERC 2021 problems.
 
     h3 Existing code
     p.
@@ -90,16 +90,18 @@ export default () => pug`
         like, and configure that software in any way they like before the
         contest. In particular, contestants may configure their editor to use a
         code template of their choice, provided it does not violate any other
-        rules about use of existing code. A #[Link(href="/vm") #[a virtual contest environment]]
+        rules about use of existing code. A virtual contest environment
         containing the exact compiler versions as those used on the judge
         machines, as well as a number of editors, IDEs, and other common
         programming tools is provided as a convenience, but its use is
         completely optional.
+    // rules about use of existing code. A #[Link(href="/vm") #[a virtual contest environment]]
 
     h3 Programming languages
     p.
         The judging system will only accept solutions written in C, C++, Java,
         Python 3 and Kotlin. See details about specific versions and
-        compilation parameters on the #[Link(href="/system") #[a judging]] page.
+        compilation parameters on the judging page (to be added).
+    // compilation parameters on the #[Link(href="/system") #[a judging]] page (to be added).
 
 `;
