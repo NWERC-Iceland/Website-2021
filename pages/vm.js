@@ -10,7 +10,7 @@ export default () => pug`
 
     p.
         This year a virtual contest environment will be provided to contestants
-        in the form of an OVA Virtual Machine. It is based on Ubuntu 20.04, and
+        in the form of an OVA Virtual Machine. It is based on Ubuntu 21.04, and
         contains the exact same compiler versions as those used on the judge
         machines, as well as a number of editors, IDEs, and other common
         programming tools. Its use is #[i completely optional] and only
@@ -19,15 +19,13 @@ export default () => pug`
     h3 Download
     p The OVA for the virtual contest environment can be downloaded here:
         ul
-            li #[a(href="https://nwerc-is-vm.s3.eu-central-1.amazonaws.com/nwerc2020-vm-0.1.2.ova") nwerc2020-vm-0.1.2.ova] (4.7GB, sha1: #[tt e02a91c9d30d2e8f0370146017f13f1fc638f3a6])
-            li #[a(href="https://nwerc-is-vm.s3.eu-central-1.amazonaws.com/nwerc2020-vm-0.1.1.ova") nwerc2020-vm-0.1.1.ova] (4.6GB, sha1: #[tt 204e0e7e26fd90b10237c6a7274703e52af3c814])
-            li #[a(href="https://nwerc-is-vm.s3.eu-central-1.amazonaws.com/nwerc2020-vm-0.1.0.ova") nwerc2020-vm-0.1.0.ova] (4.6GB, sha1: #[tt a8639bb381a1cda886778e57395a757dec562443])
+            li #[a(href="https://nwerc-is-vm.s3.eu-central-1.amazonaws.com/nwerc2021-vm-0.2.0.ova") nwerc2021-vm-0.2.0.ova] (4.9GB, sha1: #[tt 5f8e73a44bb524fd10fb481941d96b9db9ae1f97])
 
     h3 Usage
     p.
         Make sure you have at least 20GB of free space on your computer, or more to be safe.
         Import the OVA file into #[a(href="https://www.virtualbox.org/") VirtualBox]
-        or another hypervisor of your choice. Start the #[tt nwerc2020-vm]
+        or another hypervisor of your choice. Start the #[tt nwerc2021-vm]
         virtual machine and you will be automatically logged in as the #[tt team]
         user. The user has #[tt sudo] privileges, and its password is #[tt team].
         See below for #[a(href="#faq") frequently asked questions].
@@ -47,46 +45,46 @@ export default () => pug`
             li CLion 2020.3.1
             li Code::Blocks 20.03
             li Eclipse 4.18.0 (with CDT)
-            li Emacs 26.3
-            li Geany 1.36
-            li Gedit 3.36.2
+            li Emacs 27.1
+            li Geany 1.37.1
+            li Gedit 3.38.1
             li IntelliJ IDEA 2020.3.1 (Community Edition)
-            li Kate 19.12.3
-            li Neovim 0.4.3
-            li Pluma 1.24.0
+            li Kate 20.12.3
+            li Neovim 0.4.4
+            li Pluma 1.24.2
             li PyCharm 2020.3.2 (Community Edition)
-            li Sublime Text 3.2.2
-            li Vim/GVim 8.1
-            li Visual Studio Code 1.52.1
+            li Sublime Text 4121
+            li Vim/GVim 8.2
+            li Visual Studio Code 1.61.2
 
     h4 Terminals
     p
         ul
             li Byobu Terminal 5.133
-            li GNOME Terminal 3.36.2
-            li XTerm 353
+            li GNOME Terminal 3.38.1
+            li XTerm 371
 
     h4 Scripting
     p
         ul
-            li Idle 3.8.5
-            li ipython3 7.13.0
-            li Perl 5.30.0 (not as a submission language!)
+            li Idle 3.9.4
+            li ipython3 7.20.0
+            li Perl 5.32.0 (not as a submission language!)
 
     h4 Debuggers
     p
         ul
             li DDD 3.3.12
-            li gdb 9.2
+            li gdb 10.1.90
             li JUnit 3.8.2
-            li Valgrind 3.15.0
+            li Valgrind 3.17.0
 
     h4 Utilities
     p
         ul
-            li Git 2.25.1
+            li Git 2.30.2
             li Screen 4.08.00
-            li Tmux 3.0a
+            li Tmux 3.1c
 
     h3 Commands
     p The virtual contest environment includes a few helper commands to invoke the compilers and interpreters with appropriate command-line flags, as specified above. They are:
@@ -132,20 +130,12 @@ export default () => pug`
 
     h3 Changelog
 
-    h4 Version 0.1.2
-    p
-        ul
-            li Install submit command
-            li Add Kattis team guide
-            li Fix network issue in VMWare Workstation
-            li Disable cloud-init and apport services
-            li Update Java to version 11.0.10
-    h4 Version 0.1.1
-    p
-        ul
-            li Increase default Video Memory to 64MB
-    h4 Version 0.1.0
+    h4 Version 0.2.0
     p
         ul
             li Initial version
+            li Known bugs:
+                ul
+                    li mygcc and myg++ use incorrect flags
+                    li CLion license is expired
 `;

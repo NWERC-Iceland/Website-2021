@@ -17,18 +17,18 @@ export default () => pug`
 
     p Source files submitted to the judges will be compiled using the following command line arguments for the respective language:
         ul
-            li C (GCC 9.3.0)
+            li C (GCC 10.3.0)
                 div
-                    tt gcc -g -O2 -std=gnu11 -static {files} -lm
-            li C++ (GCC 9.3.0)
+                    tt gcc -g -O2 -std=gnu17 -static {files} -lm
+            li C++ (GCC 10.3.0)
                 div
-                    tt g++ -g -O2 -std=gnu++17 -static {files}
-            li Java 11 (OpenJDK, Java 11.0.10)
+                    tt g++ -g -O2 -std=gnu++20 -static {files}
+            li Java 11 (OpenJDK, Java 11.0.11)
                 div
                     tt javac -encoding UTF-8 -sourcepath . -d . {files}
-            li Python 3 (PyPy3 7.3.1, Python 3.6.9)
+            li Python 3 (PyPy3 7.3.3, Python 3.6.12)
                 div
-                    tt python3 -m py_compile {files}
+                    tt pypy3 -m py_compile {files}
             li Kotlin (1.4.21)
                 div
                     tt kotlinc -d . {files}
