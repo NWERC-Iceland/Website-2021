@@ -42,17 +42,17 @@ export default () => pug`
         resources, at no cost to educational institutions, educators, or
         students.
 
-    p.
-        #[b ICPC Gold Sponsor]: #[a(href="https://www.deviationgames.com/") #[b Deviation Games]]. 
-        Founded in 2019, Deviation Games is a new gaming company whose mission is to
-        make the most engaging, innovative games on the planet. Formed by industry
-        leaders with a mission of developing the types of games they want to play,
-        Deviation draws from the most experienced talent in the industry to build teams
-        of creative inventors. This is a company where the best of the best learn from
-        each other, working on the leading edge of what is possible in video game
-        creation. Promoting and celebrating talented student artists, engineers and the
-        future inventors who will shape the industry is why Deviation Games supports
-        ICPC.
+    // p.
+    //     #[b ICPC Gold Sponsor]: #[a(href="https://www.deviationgames.com/") #[b Deviation Games]]. 
+    //     Founded in 2019, Deviation Games is a new gaming company whose mission is to
+    //     make the most engaging, innovative games on the planet. Formed by industry
+    //     leaders with a mission of developing the types of games they want to play,
+    //     Deviation draws from the most experienced talent in the industry to build teams
+    //     of creative inventors. This is a company where the best of the best learn from
+    //     each other, working on the leading edge of what is possible in video game
+    //     creation. Promoting and celebrating talented student artists, engineers and the
+    //     future inventors who will shape the industry is why Deviation Games supports
+    //     ICPC.
 
 
     p.
