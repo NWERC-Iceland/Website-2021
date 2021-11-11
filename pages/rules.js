@@ -25,7 +25,7 @@ export default () => pug`
     h3 Team composition
     p.
       A student may compete when eligible according to the
-      2021 ICPC Regionals Eligibility Diagram. (See #[a(href="https://icpc.global/regionals/rules/EligibilityDecisionTree-2020.pdf") here] for the 2020 version.)
+      #[a(href="https://drive.google.com/file/d/1E9yaQbpSu9059UrOYafAiNrH-ABgRDAW/view") 2021 ICPC Regionals Eligibility Diagram].
 
     p
       ul
@@ -90,18 +90,16 @@ export default () => pug`
         like, and configure that software in any way they like before the
         contest. In particular, contestants may configure their editor to use a
         code template of their choice, provided it does not violate any other
-        rules about use of existing code. A virtual contest environment
+        rules about use of existing code. A #[Link(href="/vm") #[a virtual contest environment]]
         containing the exact compiler versions as those used on the judge
         machines, as well as a number of editors, IDEs, and other common
         programming tools is provided as a convenience, but its use is
         completely optional.
-    // rules about use of existing code. A #[Link(href="/vm") #[a virtual contest environment]]
 
     h3 Programming languages
     p.
         The judging system will only accept solutions written in C, C++, Java,
         Python 3 and Kotlin. See details about specific versions and
-        compilation parameters on the judging page (to be added).
-    // compilation parameters on the #[Link(href="/system") #[a judging]] page (to be added).
+        compilation parameters on the #[Link(href="/system") #[a judging]] page.
 
 `;

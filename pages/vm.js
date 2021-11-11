@@ -19,6 +19,7 @@ export default () => pug`
     h3 Download
     p The OVA for the virtual contest environment can be downloaded here:
         ul
+            li #[a(href="https://nwerc-is-vm.s3.eu-central-1.amazonaws.com/nwerc2021-vm-0.2.1.ova") nwerc2021-vm-0.2.1.ova] (4.9GB, sha1: #[tt 5d03792736929c8786efcc3fd493aa52cd80e1c8])
             li #[a(href="https://nwerc-is-vm.s3.eu-central-1.amazonaws.com/nwerc2021-vm-0.2.0.ova") nwerc2021-vm-0.2.0.ova] (4.9GB, sha1: #[tt 5f8e73a44bb524fd10fb481941d96b9db9ae1f97])
 
     h3 Usage
@@ -130,12 +131,16 @@ export default () => pug`
 
     h3 Changelog
 
+    h4 Version 0.2.1
+    p
+        ul
+            li mygcc and myg++ now use correct flags
+            li Known bugs:
+                ul
+                    li CLion license is expired
+
     h4 Version 0.2.0
     p
         ul
             li Initial version
-            li Known bugs:
-                ul
-                    li mygcc and myg++ use incorrect flags
-                    li CLion license is expired
 `;

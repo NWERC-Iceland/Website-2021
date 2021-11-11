@@ -28,12 +28,12 @@ function MenuButton(props) {
 
 export default class Layout extends Component {
   static defaultProps = {
-    // icpcBanner: true,
-    icpcBanner: false,
-    // icpcSponsors: true,
-    icpcSponsors: false,
-    // ruBanner: false,
-    ruBanner: true,
+    icpcBanner: true,
+    // icpcBanner: false,
+    icpcSponsors: true,
+    // icpcSponsors: false,
+    ruBanner: false,
+    // ruBanner: true,
     showSponsors: true,
   }
 
@@ -161,6 +161,9 @@ export default class Layout extends Component {
                 p.max-w-xs.mx-auto
                   a.block.mt-8(href="https://www.kattis.com/", target="_blank")
                     img.mx-auto(src="/images/kattis-logo.png")
+                p.max-w-xs.mx-auto
+                  a.block.mt-8(href="https://www.domjudge.org/", target="_blank")
+                    img.mx-auto(src="/images/DOMjudgelogo.png" style={'max-height': '200px'})
                 p.text-center
                     span.block.mt-4 Want to become a partner? Reach out at #[a(href="mailto:contact@nwerc.eu") contact@nwerc.eu]
 

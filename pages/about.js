@@ -25,17 +25,18 @@ export default () => pug`
       ul
         li Bjarki Ágúst Guðmundsson (Head of Jury)
         li Bergur Snorrason (Local coordinator)
-        // li Alexander Dietsch
-        // li Jeroen Bransen
-        // li Jorke de Vlas
-        // li Mees de Vries
-        // li Nils Gustafsson
-        // li Paul Wild
-        // li Pehr Söderman
-        // li Per Austrin
-        // li Ragnar Groot Koerkamp
-        // li Robin Lee
-        // li Timon Knigge
+        li Alexander Dietsch
+        li Antti Laaksonen
+        li Harry Smit
+        li Jorke de Vlas
+        li Mees de Vries
+        li Michael Zündorf
+        li Nils Gustafsson
+        li Paul Wild
+        li Pehr Söderman
+        li Per Austrin
+        li Ragnar Groot Koerkamp
+        li Timon Knigge
     p.
       For inquiries to the Jury, please send an email to #[Email(address="jury@nwerc.eu")]
 `;

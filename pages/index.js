@@ -32,19 +32,18 @@ const news = [
   //           li Instead, a separate public contest will be held on #[a(href="https://open.kattis.com") Open Kattis] on Saturday, April 3rd.
   //   `,
   // },
-  // {
-  //   title: 'Registration and updates',
-  //   published: 'February 14, 2021',
-  //   content: pug`
-  //     p The NWERC 2020 registration has now been #[Link(href="/registration") #[a opened]] with a deadline of #[b March 16th]. The site has also been updated as we transition to a fully online contest. In particular:
-  //       ul
-  //           li The #[Link(href="/registration") #[a registration]] page now contains registration instructions.
-  //           li The #[Link(href="/rules") #[a contest rules]] have been updated to take the online format into account.
-  //           li The #[Link(href="/schedule") #[a schedule]] page now contains the preliminary schedule.
-  //           li System information has been added to our #[Link(href="/system") #[a judging]] page.
-  //           li A #[Link(href="/vm") #[a virtual contest environment]] is now available. Note that its use during the contest is optional.
-  //   `,
-  // },
+  {
+    title: 'Registration and updates',
+    published: 'October 30, 2021',
+    content: pug`
+      p The NWERC 2021 registration has now been #[Link(href="/registration") #[a opened]] with a deadline of #[b November 12th]. The site has also been updated with the following:
+        ul
+            li The #[Link(href="/registration") #[a registration]] page now contains registration instructions.
+            li The #[Link(href="/schedule") #[a schedule]] page now contains the preliminary schedule.
+            li System information has been added to our #[Link(href="/system") #[a judging]] page.
+            li A #[Link(href="/vm") #[a virtual contest environment]] is now available. Note that its use during the contest is optional.
+    `,
+  },
   // {
   //   title: 'COVID-19 update',
   //   published: 'August 30, 2020',
