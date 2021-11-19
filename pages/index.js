@@ -19,19 +19,19 @@ const news = [
   //     p Thank you all for a great contest last weekend - we look forward to seeing you all again at NWERC 2021. Last but not least we would like to thank our sponsors, #[a(href="https://www.huawei.com/en/") Huawei], #[a(href="https://www.jetbrains.com/") Jetbrains], #[a(href="http://www.awseducate.com/") AWS Educate] and #[a(href="https://en.ru.is/") Reykjavík University] for making this event possible! You can find more information about them on our #[Link(href="/partners") #[a sponsors]] page.
   //   `,
   // },
-  // {
-  //   title: 'Friday update',
-  //   published: 'March 26, 2021',
-  //   content: pug`
-  //     p Tomorrow is the day of the practice session. A link to the livestream will be posted on the website tomorrow morning.
-  //     p A few notes about the format this weekend:
-  //       ul
-  //           li The judges have published a #[a(href="https://www.nwerc.eu/files/hints.pdf") document] with advice, hints, and general information about the contests this weekend. Contestants are asked to read it in full as it contains important new information, in particular about the inclusion of interactive problems this year.
-  //           li Public standings for the contests can be found at #[a(href="https://standings.nwerc.is/") https://standings.nwerc.is/].
-  //           li Due to the online nature of the contest this year, we have decided not to hold a simultaneous open contest, and to keep the problemset private until after the contest.
-  //           li Instead, a separate public contest will be held on #[a(href="https://open.kattis.com") Open Kattis] on Saturday, April 3rd.
-  //   `,
-  // },
+  {
+    title: 'Friday update',
+    published: 'November 19, 2021',
+    content: pug`
+      p Tomorrow is the day of the practice session. A link to the livestream will be posted on the website tomorrow morning.
+      p A few notes about the format this weekend:
+        ul
+            li The judges have published a #[a(href="https://www.nwerc.eu/files/hints.pdf") document] with advice, hints, and general information about the contests this weekend. Contestants are asked to read it in full as it contains important new information, in particular about the inclusion of interactive problems this year.
+            li Public standings for the contests can be found at #[a(href="https://standings.nwerc.is/") https://standings.nwerc.is/].
+            li Due to the online nature of the contest this year, we have decided not to hold a simultaneous open contest, and to keep the problemset private until after the contest.
+            li Instead, a separate public contest will be held on #[a(href="https://open.kattis.com") Open Kattis] on Saturday, November 27th.
+    `,
+  },
   {
     title: 'Registration and updates',
     published: 'October 30, 2021',
