@@ -6,19 +6,21 @@ import "../styles/index.css";
 
 const news = [
   // Newest at the top
-  // {
-  //   title: 'Final standings and open contest',
-  //   published: 'April 2, 2021',
-  //   content: pug`
-  //     p It's our pleasure to announce that all appeals have been resolved and the #[a(href="/standings") NWERC 2020 standings] have been finalized without any changes. Congratulations again to the NWERC 2020 Champions, Los Patrons from the University of Oxford, as well as all our medalists.
+  {
+    title: 'Final standings and open contest',
+    published: 'November 25, 2021',
+    content: pug`
+      p It's our pleasure to announce that all appeals have been resolved and the #[a(href="/standings") NWERC 2021 standings] have been finalized without any changes. Congratulations again to the NWERC 2021 Champions, Sidney's Cat Tree from the University of Cambridge, as well as all our medalists.
 
-  //     p All the contest materials have been published on our #[Link(href="/") #[a website]], including the problem set, solution slides, test data and judges' solutions. Also worth mentioning is that this Saturday, April 3rd, at 12:00 GMT+0 we will be hosting an open version of NWERC 2020 on #[a(href="https://open.kattis.com/contests/nwerc2020open") Open Kattis].
+      p All the contest materials have been published on our #[Link(href="/") #[a website]], including the problem set, solution slides, test data and judges' solutions. Also worth mentioning is that this Saturday, November 27th, at 9:00 GMT+0 we will be hosting an open version of NWERC 2021 on #[a(href="https://open.kattis.com/contests/nwerc2021open") Open Kattis].
 
-  //     p In a few weeks we will start our preparations for NWERC 2021 which is set to take place in an online or distributed setting at the end of this year. If you are a coach or contestant that has competed in NWERC for the last time, and are interested in receiving the NWERC 2021 Call for Problems, please send an email to #[Email(address="bjarki@nwerc.eu")] titled "Call for Problems signup".
+      p It's been our pleasure to organize NWERC for the last two years. The ICPC flag is already on its way to TU Delft in the Netherlands, who will be organizing NWERC 2022 and NWERC 2023. We wish them the best of luck with the organization, and hope to see you in Delft next year!
 
-  //     p Thank you all for a great contest last weekend - we look forward to seeing you all again at NWERC 2021. Last but not least we would like to thank our sponsors, #[a(href="https://www.huawei.com/en/") Huawei], #[a(href="https://www.jetbrains.com/") Jetbrains], #[a(href="http://www.awseducate.com/") AWS Educate] and #[a(href="https://en.ru.is/") Reykjavík University] for making this event possible! You can find more information about them on our #[Link(href="/partners") #[a sponsors]] page.
-  //   `,
-  // },
+      p If you are a coach, or contestant that has competed in NWERC for the last time, and are interested in receiving the NWERC 2022 Call for Problems, please send an email to #[Email(address="contact@nwerc.eu")] titled "Call for Problems signup".
+
+      p Last but not least we would like to thank our sponsors, #[a(href="https://www.huawei.com/en/") Huawei], #[a(href="https://www.jetbrains.com/") Jetbrains], #[a(href="http://www.awseducate.com/") AWS Educate] and #[a(href="https://en.ru.is/") Reykjavík University] for making this event possible! You can find more information about them on our #[Link(href="/partners") #[a sponsors]] page.
+    `,
+  },
   {
     title: 'Friday update',
     published: 'November 19, 2021',
@@ -29,7 +31,7 @@ const news = [
             li The judges have published a #[a(href="https://www.nwerc.eu/files/hints.pdf") document] with advice, hints, and general information about the contests this weekend. Contestants are asked to read it in full as it contains important new information, in particular about the inclusion of interactive problems this year.
             li Public standings for the contests can be found at #[a(href="https://standings.nwerc.is/") https://standings.nwerc.is/].
             li Due to the online nature of the contest this year, we have decided not to hold a simultaneous open contest, and to keep the problemset private until after the contest.
-            li Instead, a separate public contest will be held on #[a(href="https://open.kattis.com") Open Kattis] on Saturday, November 27th.
+            li Instead, a separate public contest will be held on #[a(href="https://open.kattis.com/contests/nwerc2021open") Open Kattis] on Saturday, November 27th from 10:00 - 15:00 GMT+1.
     `,
   },
   {
@@ -99,28 +101,28 @@ export default () => pug`
       Belgium, Denmark, Estonia, Finland, Germany, Great Britain,
       Iceland, Ireland, Lithuania, Luxembourg, the Netherlands, Norway and
       Sweden. The top teams will advance to the ICPC World Finals.
-    // hr
-    // div.sm_grid.grid-cols-2
-    //     div
-    //         h2.mt-0 Contest material
-    //         p.mb-6
-    //             ul
-    //                 li #[a(href="/standings") Final standings]
-    //                 li #[a(href="/files/nwerc2020problems.pdf") Problemset (pdf)]
-    //                 li #[a(href="/files/nwerc2020slides.pdf") Solution slides (pdf)]
-    //                 li #[a(href="/files/nwerc2020all.tar.bz2") Packaged problems (.tar.bz2, 91MB)]
-    //                 li #[a(href="https://youtu.be/AdSJ6hBL7x8") Livestream]
-    //                 li #[a(href="https://twitter.com/nwerc_") Twitter]
-    //     div
-    //         h2.mt-0 Practice session material
-    //         p.mb-6
-    //             ul
-    //                 li #[a(href="/practice-standings") Final standings]
-    //                 li #[a(href="/files/nwerc2020practice.pdf") Problemset (pdf)]
-    //                 li #[a(href="/files/nwerc2020practice-slides.pdf") Solution slides (pdf)]
-    //                 li #[a(href="/files/nwerc2020practice.tar.bz2") Packaged problems (.tar.bz2, 12MB)]
-    //                 li #[a(href="https://youtu.be/A4AYKHoP3jI") Livestream]
-    // hr
+    hr
+    div.sm_grid.grid-cols-2
+
+        div
+            h2.mt-0 Contest material
+            p.mb-6
+                ul
+                    li #[a(href="/standings") Final standings]
+                    li #[a(href="/files/nwerc2021problems.pdf") Problemset (pdf)]
+                    li #[a(href="/files/nwerc2021slides.pdf") Solution slides (pdf)]
+                    li #[a(href="/files/nwerc2021all.tar.bz2") Packaged problems (.tar.bz2, 97MB)]
+                    li #[a(href="https://youtu.be/YSDqYiEnaDA") Livestream]
+        div
+            h2.mt-0 Practice session material
+            p.mb-6
+                ul
+                    li #[a(href="/practice-standings") Final standings]
+                    li #[a(href="/files/nwerc2021practice.pdf") Problemset (pdf)]
+                    li #[a(href="/files/nwerc2021practice-slides.pdf") Solution slides (pdf)]
+                    li #[a(href="/files/nwerc2021practice.tar.bz2") Packaged problems (.tar.bz2, 41MB)]
+                    li #[a(href="https://youtu.be/TJpnBZ_N6sQ") Livestream]
+    hr
 
     each news_item in news
       h3= news_item.title

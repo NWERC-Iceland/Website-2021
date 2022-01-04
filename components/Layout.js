@@ -35,6 +35,7 @@ export default class Layout extends Component {
     ruBanner: false,
     // ruBanner: true,
     showSponsors: true,
+    becomePartner: false,
   }
 
   constructor(props) {
@@ -164,8 +165,9 @@ export default class Layout extends Component {
                 p.max-w-xs.mx-auto
                   a.block.mt-8(href="https://www.domjudge.org/", target="_blank")
                     img.mx-auto(src="/images/DOMjudgelogo.png" style={'max-height': '200px'})
-                p.text-center
-                    span.block.mt-4 Want to become a partner? Reach out at #[a(href="mailto:contact@nwerc.eu") contact@nwerc.eu]
+                if this.props.becomePartner
+                    p.text-center
+                        span.block.mt-4 Want to become a partner? Reach out at #[a(href="mailto:contact@nwerc.eu") contact@nwerc.eu]
 
 `;
   }
